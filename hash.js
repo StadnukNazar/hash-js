@@ -25,7 +25,7 @@ async function processPassword() {
             writeFileSync(fileName, hash);
             console.log("The new password has been hashed and saved to a file!");
         } catch (err) {
-            console.error("Hashing error:", err)
+            console.error("error:", err)
         }
     } else {
         try {
